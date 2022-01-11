@@ -1,16 +1,149 @@
 # colemak_org
 
+## The Colemak Community Web Pages
+==================================
+
 Web pages for [colemak.org][cmkorg]
-  
-[This repo][cmkgit] holds a GitHub web page for the user-controlled colemak.org domain. The official Colemak site run by Shai Coleman is at [colemak.com][cmkcom].
-  
+-----------------------------------
+
+[This repo][cmkgit] holds a GitHub web page for the user-controlled colemak.org domain.
+
+The official Colemak site run by Colemak's creator Shai Coleman is at [colemak.com][cmkcom].
+
 For now, the colemak.org pages will mostly be a short intro to the Colemak keyboard layout and a link page to various Colemak-related online resources.
-  
+
+For more info on mods, typing enhancements and learning, please see the [DreymaR's Big Bag of Keyboard Tricks][bigbag] pages.
+
 This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith], with the permission and cooperation of Shai Coleman.
-  
+
 
 [cmkgit]: https://github.com/DreymaR/colemak_org (The GitHub address of this site)
 [cmkorg]: https://www.colemak.org (colemak.org - this site)
 [cmkcom]: https://www.colemak.com (The official colemak.com site)
+[bigbag]: https://dreymar.colemak.org (DreymaR's Big Bag of Keyboard Tricks)
+
 [@dreym]: https://github.com/DreymaR (DreymaR @ GitHub)
 [@abith]: https://github.com/abrickinthehallway (abrickinthehallway @ GitHub)
+
+
+FAQ: LAYOUT DESIGN QUESTIONS
+----------------------------
+	- "Which Colemak is better, Classical/"Vanilla" or Curl/DH?"
+		- Both have shown 220+ WPM typing test results
+		- Individual preference: 
+		- Your typing style may affect your choice a bit (float vs grounding)
+	- "Is Colemak-DH the same as...?"
+		- "...DHm/DHk, the DH mod for ANSI/ISO vs matrix/ortho...?"
+		- The DH mod for Colemak is the result of SteveP's Mod-DH project from 2014. As the name says, it moves the D and H keys.
+		- To be precise: 'Mod-DH' is the _project_. The 'Curl-DH' or just 'DH' mod is the result. 'Colemak-DH' is the resulting layout.
+		- It's a _Curl_ mod: It lets the home row curl like the natural curve of fingers on a hand instead of stretching inwards.
+		- On a row-staggered board (any standard keyboard has a 1/4–1/2u row stagger) it's accompanied by an _Angle_ mod.
+		- The geometrically descriptive name for Colemak-DH is therefore Colemak-CurlAngle or Cmk-CA.
+		- There is only one standard variant of Cmk-DH now, although a few have been tried out.
+		- Standard Cmk-DH has M on the home row and is also named Cmk-DHm. There's also a Cmk-DHk, the former standard (2017–2020).
+		- The even further modded Colemak-CAWS is DH(CA) plus Wide and Sym (WS) mods. See [the Big Bag][bigbag].
+	☑ "Why is Z in the middle of the board on Angle-ANSI? Would DH work without that pesky confusing Angle mod?"
+		- "Would using one ortho board and another ANSI Angle-modded board make it more confusing?"
+	- "Which layouts are better than Colemak?"
+		- Depends a lot on modeling and scoring. Individual factors and preferences become important, as with vanilla vs DH.
+		- Diminishing returns, infinite layout pool
+		- More changes from QWERTY, more keys change hands, fewer shortcuts kept
+		- Many layouts claiming superiority have more pinky movement! Also more pinky SFBs even with fewer total SFBs.
+		- Colemak places the quite common `A` and `O` on pinkies, but has little pinky movement to the other rows.
+		- Word of warning about implementation.
+	☑ "Isn't Workman/Norman/Whatever better than Colemak? Its documentation says so!"
+		- Please don't trust any layout maker's own words. There really are a lot of fairly clueless people, and even nutcases make layouts.
+		- Specifically, the Norman and Workman layout makers seem exceedingly proud of themselves and imnsho shouldn't be.
+		- For one: Both these layouts have too high same-finger bigram (SFB) stats, and their fans downplay the problem.
+		- Secondly, most users of these layouts that have studied layout design a little seem to be unhappy with their choice.
+		- Here's Ben Vallack talking about leaving Workman: https://www.youtube.com/watch?v=WVmJrZF9xwk&t=245s
+	- "I want to tweak Colemak a little to suit my needs!"
+		- Unless you really are an experienced layout designer, be open to the fact that you probably don't know and understand enough to do it well.
+		- On a properly optimized layout it's generally very hard to change even a small thing without breaking something more important.
+		- You need to understand concepts such as finger strengths, interdependences and speeds.
+		- You need to understand typing concepts such as grounding vs float, hand and finger balances, alternation vs rolls.
+		- You probably should understand anatomical concepts such as ulnar deviation, lateral stretches, finger 
+		- Same-finger bigrams is a crucial factor in layout design! You may not notice them at first though.
+			- Some say that a SFB% of, say, 0.2% for 
+			- Beyond simple SFBs you have roll direction and redirects, skip-grams and whatnot. Here be dragons!
+		- Read the https://colemak.com/Design_FAQ and the accompanying https://colemak.com/Design first, to learn more.
+		- "In the world of layout design there is no beginner's luck, only beginner's mistakes" ~ DreymaR, 2021
+	- "Wouldn't it be better to swap R and S on Colemak? It's so hard to learn!"
+		- We get this one a lot from newcomers! You won't believe how common it is!
+		- Funny video comment: https://www.youtube.com/watch?v=4qLkq6jYnJM
+		- See the "I want to tweak Colemak..." question first.
+		- Simply swapping R and S on Colemak is definitely not recommended! It leads to higher same-finger bigram frequency and other issues.
+		- Ease of learning is a design property of Colemak, but should not be so at the cost of too much layout quality.
+			- Funnily enough, other layouts move lots of keys between hands and swap them around. Their learners don't complain.
+			- Colemak, on the other hand, has this one somewhat hard-to-learn key swap, and lots of learners complain since it's just that one.
+		- If you make a change to Colemak that makes it worse, you're fixing a temporary problem with a permanently inferior solution!
+		- In the [Colemak Design FAQ](https://colemak.com/Design_FAQ) Shai Coleman answers the R-S exchange question like this:
+			- It significantly reduces same-finger. This is especially important as it affects the ring finger which is the least dexterous finger.
+				- (e.g. try typing fast WSWSWS on QWERTY)
+			- It allows for W to stay in the same place. It's more important to keep the potentially destructive Ctrl+W shortcut.
+				- (Close Window under MS Windows)
+		- Moving Ctrl+S is far less destructive than moving Ctrl+W.
+		- RS occurs 0.40% of the time; common for a bigram. SR occurs 0.006% of the time. It's better to roll this bigram inwards than outwards.
+		- The ST bigram too is better this way, and more common than TS.
+		- https://www.reddit.com/r/Colemak/comments/hnfk6e/is_there_a_good_reason_for_the_placement_of_r_and/
+
+FAQ: LAYOUT DESIGN ANALYSIS
+---------------------------
+	- English bigram frequencies from Norvig/Mayzner: https://blogs.sas.com/content/iml/files/2014/09/bigrams.txt
+		  ##: Bigram	##: Reverse 	Sum  	Ratio | - Comment
+		=======================================================================================================
+		- Common bigrams in English:
+		  --------------------------------
+		  TH: 3.556%	HT: 0.130%  	3.69%	 27   | - TH and HE are the two most common bigrams
+		  HE: 3.075%	EH: 0.026%  	3.10%	118   | - HE is also relevant to Colemak-DH
+		  ER: 2.048%	RE: 1.854%  	3.90%	  1.1 | - ER/RE is the most common bidirectional bigram
+		  OU: 0.870%	UO: 0.011%  	0.88%	 79   | - OU is also relevant to Colemak YOU
+		- Relevant to a Colemak R-S swap:
+		  --------------------------------
+		  ST: 1.053%	TS: 0.337%  	1.39%	  3.1 | - ST/TS is in the top 20 English bigrams
+		  RS: 0.397%	SR: 0.006%  	0.40%	 66   | - RS is nicer to roll inwards
+		  TR: 0.426%	RT: 0.362%  	0.79%	  1.2 | - TR/RT vs RS/SR isn't so important here?
+		  SC: 0.155%	CS: 0.023%  	0.18%	  6.7 | - Colemak has SC/CS, WR/RW, SF/FS relevant SFBs
+		  WR: 0.031%	RW: 0.013%  	0.04%	  2.4 |     - In sum, 0.24% relevant SFBs
+		  SF: 0.017%	FS: 0.006%  	0.02%	  2.8 |     - Cmk total is 1.67% on the Colemakmods analyzer
+		  CR: 0.149%	RC: 0.121%  	0.27%	  1.2 | - R-S swapped Cmk has CR/RC, FR/RF, WS/SW SFBs
+		  FR: 0.213%	RF: 0.032%  	0.25%	  6.6 |     - In sum, 0.58% relevant SFBs
+		  WS: 0.035%	SW: 0.024%  	0.06%	  1.5 |     - That's a factor 2.4 over Cmk's
+		- The most frequent Colemak SFBs:
+		  --------------------------------
+		  SC: 0.155%	CS: 0.023%  	0.18%	  6.7 | - E, KN UE SC Y. are the most common SFBs on Colemak
+		  UE: 0.147%	EU: 0.031%  	0.18%	  4.7 | - UE feels easier as an upper-to-middle-row SFB
+		  NK: 0.052%	KN: 0.051%  	0.10%	  1.0 | - NK/KN is easily alt-fingered with index-middle fingers
+		
+	- SteveP's SFB analysis using the colemakmods analyzer:
+			Colemak                     	1.669%
+			Colemak (angle-cheat)       	1.789%
+			Colemak-RS                  	2.034%
+			Colemak-RS (angle-cheat)    	2.044% 
+		- So the difference is bigger than 0.24% in this analysis
+			- is that due to the difference between Norvig/Mayzner and the carpalx (which I use) datasets?
+		- I've always thought that if people are determined to swap RS, then they should do a FL swap as well:
+			Colemak-RSFL                	1.872%
+			Colemak-RSFL (angle-cheat)  	1.763% (Improves hand balance too!)
+
+FAQ: PRACTICAL LAYOUT QUESTIONS
+-------------------------------
+	- "My right pinky gets tired! And typing `you` is uncomfortable! What's wrong?"
+		- Many QWERTY typists hardly use their right hand pinky, as the rare semicolon sits in its home row position and some type P with their ring finger.
+		- These typists may need to build up their finger strength a little to type well on Colemak. Pinky fu!  🥋
+		- There are layouts that deprioritize the pinkies more than Colemak. These generally aren't so good, however.
+		- There are several highly optimized layouts that have a heavier pinky load than Colemak.
+		- The `you` trigram in particular, isn't so great on Colemak. Trust me, most common n-grams are great. 👍
+			- This one has a so-called `redirect`, which means that it changes direction (RL then LR). That's not so comfortable.
+			- Furthermore, it uses both the weak pinky and the codependent ring finger. You just have to train it!
+	- "How can I train my fingers to get better at typing for instance `you`, then?"
+			- At the Training page there are tips for training hard n-grams. Try a list of words containing 'ou uo yo oy uy yu'!
+			- If you have a programmable keyboard you could make a chord for hard n-grams. E.g., press 'yu' at the same time for 'you'.
+	- How can I get a layout up and running? I downloaded this installer...
+		- Four main ways on Windows: MSKLC, AHK, EPKL, Registry/SharpKeys. Strengths and weaknesses.
+		- On Linux and MacOS, XKB and KMonad (and the mostly deprecated xmodmap). Differences.
+		- Hardware implementation. Programmable board and QUICKIE.
+	- Where can I learn to type better and faster with a layout?
+		- There are many options and people are different.
+		- The best advice is to enjoy the experience!
+		- See the Big Bag Training page for answers.
