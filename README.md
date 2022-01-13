@@ -1,10 +1,10 @@
 # colemak_org
 
-## The Colemak Community Web Pages
-==================================
+The Colemak Community Web Pages
+===============================
 
-Web pages for [colemak.org][cmkorg]
------------------------------------
+Web pages for [www.colemak.org][cmkorg]
+---------------------------------------
 
 [This repo][cmkgit] holds a GitHub web page for the user-controlled colemak.org domain.
 
@@ -28,28 +28,34 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
 
 FAQ: LAYOUT DESIGN QUESTIONS
 ----------------------------
-	- "Which Colemak is better, Classical/"Vanilla" or Curl/DH?"
-		- Both have shown 220+ WPM typing test results
-		- Individual preference: 
-		- Your typing style may affect your choice a bit (float vs grounding)
-	- "Is Colemak-DH the same as...?"
-		- "...DHm/DHk, the DH mod for ANSI/ISO vs matrix/ortho...?"
-		- The DH mod for Colemak is the result of SteveP's Mod-DH project from 2014. As the name says, it moves the D and H keys.
-		- To be precise: 'Mod-DH' is the _project_. The 'Curl-DH' or just 'DH' mod is the result. 'Colemak-DH' is the resulting layout.
-		- It's a _Curl_ mod: It lets the home row curl like the natural curve of fingers on a hand instead of stretching inwards.
-		- On a row-staggered board (any standard keyboard has a 1/4–1/2u row stagger) it's accompanied by an _Angle_ mod.
+	☑ "Which Colemak is better, Classical/Vanilla or Curl/DH?"
+		- It's quite individual really! There are many users of both variants, among them people who have tried both.
+		- The Curl-DH mod reduces lateral (inwards) travel for the index fingers, and helps the common HE bigram.
+		- To determine what you like best, decide how you feel about inwards stretches to D (QWERTY G) and H.
+		- Then compare with the downwards <i>curl</i> to V and M. If you prefer those, consider Cmk-DH.
+		- Individual preference and typing style (e.g., float vs grounding) may affect the choice.
+		- Both variants are well suited for both row-staggered and matrix/ortho keyboards.
+		- People have achieved 220+ WPM typing test results on both variants (Viper and Sophie).
+	☑ "Is Colemak-DH the same as...?"
+		- "...DHm/DHk, the DH mod for ANSI/ISO vs matrix/ortho keyboards, or...?"
+		- There are many names and letters floating around, let's hopefully clear this up a bit.
+		- The DH mod for Colemak is the result of SteveP's Mod-DH project from 2014. As its name says, it moves the D and H keys.
+		- It's a _Curl_ mod: It lets the home row curl down like the natural curve of fingers on a hand instead of stretching inwards.
+		- To be precise, 'Mod-DH' is the _project_. The 'Curl-DH' or just 'DH' _mod_ is the result. 'Colemak-DH' is the resulting _layout_.
+		- On a row-staggered board (any standard keyboard has a 1/4–1/2u row stagger), DH is accompanied by an _Angle_ mod.
 		- The geometrically descriptive name for Colemak-DH is therefore Colemak-CurlAngle or Cmk-CA.
-		- There is only one standard variant of Cmk-DH now, although a few have been tried out.
-		- Standard Cmk-DH has M on the home row and is also named Cmk-DHm. There's also a Cmk-DHk, the former standard (2017–2020).
-		- The even further modded Colemak-CAWS is DH(CA) plus Wide and Sym (WS) mods. See [the Big Bag][bigbag].
+		- There is only one standard variant of Cmk-DH now, although a few have been tried out. It's the same as the original from 2014.
+		- Standard Cmk-DH has M on the home row and is thus also named Cmk-DHm. There's also a Cmk-DHk, the former standard (2017–2020).
+		- A common misconception is that the 'm' in DHm stands for 'matrix' as in matrix/ortho boards. This is wrong. I should know; I made that abbreviation.
+		- Some use Colemak-CurlAngle plus further Wide and Sym mods, which makes Colemak-CAWS. See [the Big Bag][bigbag].
 	☑ "Why is Z in the middle of the board on Angle-ANSI? Would DH work without that pesky confusing Angle mod?"
 		- "Would using one ortho board and another ANSI Angle-modded board make it more confusing?"
-	- "Which layouts are better than Colemak?"
-		- Depends a lot on modeling and scoring. Individual factors and preferences become important, as with vanilla vs DH.
+	☑ "Which layouts are better than Colemak?"
+		- Any answer depends a lot on modeling and scoring. Individual factors and preferences become important, as with vanilla vs DH.
 		- Diminishing returns, infinite layout pool
 		- More changes from QWERTY, more keys change hands, fewer shortcuts kept
 		- Many layouts claiming superiority have more pinky movement! Also more pinky SFBs even with fewer total SFBs.
-		- Colemak places the quite common `A` and `O` on pinkies, but has little pinky movement to the other rows.
+			- Colemak places the quite common `A` and `O` on pinkies, but has little pinky movement to the other rows.
 		- Word of warning about implementation.
 	☑ "Isn't Workman/Norman/Whatever better than Colemak? Its documentation says so!"
 		- Please don't trust any layout maker's own words. There really are a lot of fairly clueless people, and even nutcases make layouts.
@@ -57,17 +63,17 @@ FAQ: LAYOUT DESIGN QUESTIONS
 		- For one: Both these layouts have too high same-finger bigram (SFB) stats, and their fans downplay the problem.
 		- Secondly, most users of these layouts that have studied layout design a little seem to be unhappy with their choice.
 		- Here's Ben Vallack talking about leaving Workman: https://www.youtube.com/watch?v=WVmJrZF9xwk&t=245s
-	- "I want to tweak Colemak a little to suit my needs!"
-		- Unless you really are an experienced layout designer, be open to the fact that you probably don't know and understand enough to do it well.
+	☑ "I want to tweak Colemak a little to suit my needs!"
+		- Unless you are an experienced layout designer, consider that you probably don't know and understand enough to do it well.
 		- On a properly optimized layout it's generally very hard to change even a small thing without breaking something more important.
-		- You need to understand concepts such as finger strengths, interdependences and speeds.
-		- You need to understand typing concepts such as grounding vs float, hand and finger balances, alternation vs rolls.
-		- You probably should understand anatomical concepts such as ulnar deviation, lateral stretches, finger 
+		- You need to understand typing concepts such as grounding vs float, hand and finger balances, alternation vs rolls, lateral stretches etc.
+		- You need to understand anatomical concepts such as finger strengths, interdependences and speeds, ulnar deviation etc.
 		- Same-finger bigrams is a crucial factor in layout design! You may not notice them at first though.
-			- Some say that a SFB% of, say, 0.2% for 
-			- Beyond simple SFBs you have roll direction and redirects, skip-grams and whatnot. Here be dragons!
+			- Some say that a SFB% of, say, 0.2% for one bigram – 1 in is so little that you won't notice it.
+		- Beyond simple SFBs you have roll direction and redirects, skip-grams and whatnot. Here be dragons!
 		- Read the https://colemak.com/Design_FAQ and the accompanying https://colemak.com/Design first, to learn more.
 		- "In the world of layout design there is no beginner's luck, only beginner's mistakes" ~ DreymaR, 2021
+
 	- "Wouldn't it be better to swap R and S on Colemak? It's so hard to learn!"
 		- We get this one a lot from newcomers! You won't believe how common it is!
 		- Funny video comment: https://www.youtube.com/watch?v=4qLkq6jYnJM
@@ -85,7 +91,19 @@ FAQ: LAYOUT DESIGN QUESTIONS
 		- Moving Ctrl+S is far less destructive than moving Ctrl+W.
 		- RS occurs 0.40% of the time; common for a bigram. SR occurs 0.006% of the time. It's better to roll this bigram inwards than outwards.
 		- The ST bigram too is better this way, and more common than TS.
-		- https://www.reddit.com/r/Colemak/comments/hnfk6e/is_there_a_good_reason_for_the_placement_of_r_and/
+		- There are some more answers here: https://www.reddit.com/r/Colemak/comments/hnfk6e/is_there_a_good_reason_for_the_placement_of_r_and/
+	- "Is mapping the CapsLock key to Backspace a part of the Colemak layout?"
+		- When the Colemak layout was introduced, the layout was indeed bundled with this nifty trick.
+		- However, treating layout components as modules works better. CapsLock key behavior should be treated separately from letter layout.
+		- This is the case in Linux XKB for instance, where you can select what the CapsLock key does independently from your layout choice.
+		- Furthermore, several tricks and tools have been added to your options since the birth of Colemak.
+		- Consider using the Caps key as a powerful <a href="https://dreymar.colemak.org/layers-extend.html"><b>Extend layer modifier</b></a>!
+		- With Extend, you'll keep both Back and CapsLock in handy locations. It's also easy to hit Ctrl+Back with Extend, and so much more.
+		- In some cases, the key can even be both Back on tap and the Extend mod on hold as a Tap-or-Mod key.
+	- "How can I get a layout up and running? I downloaded this installer..."
+		<li>On Windows there are four main ways: MSKLC, AHK, EPKL and Registry/SharpKeys. All have their strengths and weaknesses.</li>
+		<li>On Linux and MacOS, XKB and KMonad. Differences.</li>
+		<li>Hardware implementation. Programmable board and QUICKIE.</li>
 
 FAQ: LAYOUT DESIGN ANALYSIS
 ---------------------------
@@ -139,11 +157,11 @@ FAQ: PRACTICAL LAYOUT QUESTIONS
 	- "How can I train my fingers to get better at typing for instance `you`, then?"
 			- At the Training page there are tips for training hard n-grams. Try a list of words containing 'ou uo yo oy uy yu'!
 			- If you have a programmable keyboard you could make a chord for hard n-grams. E.g., press 'yu' at the same time for 'you'.
-	- How can I get a layout up and running? I downloaded this installer...
-		- Four main ways on Windows: MSKLC, AHK, EPKL, Registry/SharpKeys. Strengths and weaknesses.
-		- On Linux and MacOS, XKB and KMonad (and the mostly deprecated xmodmap). Differences.
-		- Hardware implementation. Programmable board and QUICKIE.
 	- Where can I learn to type better and faster with a layout?
 		- There are many options and people are different.
 		- The best advice is to enjoy the experience!
 		- See the Big Bag Training page for answers.
+	- How can I get a layout up and running? I downloaded this installer...
+		- Four main ways on Windows: MSKLC, AHK, EPKL, Registry/SharpKeys. Strengths and weaknesses.
+		- On Linux and MacOS, XKB and KMonad (and the mostly deprecated xmodmap). Differences.
+		- Hardware implementation. Programmable board and QUICKIE.
