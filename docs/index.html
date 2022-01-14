@@ -51,6 +51,35 @@
     </p>
 
     <h1>Frequently Asked Questions</h1>
+
+    <div class="spoiler newbspoiler">
+        <p><span>"Should I learn Colemak? Is it worth it?"</span></p>
+        <div class="spoilerBody">
+            <ul class="disc">
+                <li>Yes. Well, you asked. On a page dedicated to Colemak...  ¯\(º_o)/¯</li>
+                <li>Longer answer: If your only concern is speed then maybe not. You can get fast with most layouts, likely including the one you're using now.</li>
+                <li>"Your fingers will thank you" goes the slogan. Colemak is very comfortable and once you've learnt it properly you'll nearly certainly enjoy it a lot.</li>
+                <li>While learning though, it can be unpleasant at times. So be warned if you're an impatient type. There are different ways of learning, if you wish.</li>
+                <li>If you're worried about having to use QWERTY on other computers, that's usually not a big problem. You will get by, and you can even maintain both.</li>
+                <li>Consider that you'll probably type a lot in your lifetime. Learning a better way of doing that should easily be worth the while.</li>
+                <br>
+                <li>In sum, nearly everyone we've heard from who gave it a dedicated attempt ended up saying that learning an improved layout is well worth it.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="spoiler newbspoiler">
+        <p><span>"What about Vim, or other programs that use shortcuts?"</span></p>
+        <div class="spoilerBody">
+            <ul class="disc">
+                <li>For the majority of users, that's not a problem. Many worry beforehand, but we haven't heard anyone with a little experience complain.</li>
+                <li>In Vim and most other programs, most of the shortcuts are by letter. The Yank command in Vim is on the <kbd>Y</kbd> key no matter where that is.</li>
+                <li>Commands/shortcuts that are positional will take a little more getting used to. Some remap them, but many prefer not to after a while.</li>
+                <li>There are other navigation ways than HJKL in Vim, and they may just be better overall. <a href="https://dreymar.colemak.org/layers-extend.html">Extend</a> is a good example – it even stays with you outside Vim!</li>
+            </ul>
+        </div>
+    </div>
+
     <div class="spoiler newbspoiler">
         <p><span>"Which is better, classical/vanilla Colemak or Colemak-DH?"</span></p>
         <div class="spoilerBody">
@@ -98,9 +127,11 @@
             </p><p>
                 In case you're wondering what to do if you have both kinds of board, many people in this situation have said that using an Angle mod on the row-stag actually feels <i>more</i> like the ortho experience, <kbd>Z</kbd> be damned! That's how cursed the traditional left-hand typing technique is.
             </p>
-            <br><img alt="Colemak-DH on a matrix/ortho keyboard" src="https://colemakmods.github.io/mod-dh/gfx/about/colemak_dh_main_matrix.png" /><br>
+            <br><img src="https://colemakmods.github.io/mod-dh/gfx/about/colemak_dh_main_matrix.png" alt="Colemak-DH on a matrix/ortho keyboard"><br>
         </div>
     </div>
+
+    <br>
 
     <div class="spoiler newbspoiler">
         <p><span>"Isn't Workman/Norman/Whatever better than Colemak? Its documentation says so!"</span></p>
@@ -128,7 +159,8 @@
                 <li>So, by releasing these extra limitations you could in theory make a slightly more efficient layout at the cost of some benefits.</li>
                 <li>More changes from QWERTY, more keys changing hands, and fewer shortcuts kept may not matter to you though? They will to many.</li>
                 <br>
-                <li>Any answer depends a lot on your modeling and scoring. And individual factors and preferences become important, as with vanilla vs DH.</li>
+                <li>Any answer depends a lot on your modeling and scoring.</li>
+                <li>Individual factors and preferences become important at high levels of optimization, as with vanilla vs DH.</li>
                 <li>Many layouts claiming superiority have more pinky movement than Colemak! Also more pinky SFBs even with fewer total SFBs.</li>
                 <li>Colemak places the quite common <kbd>A</kbd> and <kbd>O</kbd> on pinkies, but has little pinky movement to the other rows.</li>
                 <li>If you're interested in the field of alt-layouts, one good suggestion is to join the Alt Keyboard Layout Discord for discussion and info.</li>
@@ -158,6 +190,53 @@
                 <br>
             </ul>
             <p><i>"In the world of layout design there is no beginner's luck. Only beginner's mistakes." ~ DreymaR, 2021</i></p>
+        </div>
+    </div>
+
+    <div class="spoiler newbspoiler">
+        <p><span>"Wouldn't it be better to swap R and S on Colemak? It's so hard to learn!</span></p>
+        <div class="spoilerBody">
+            <ul class="disc">
+                <li>We get this one a lot from newcomers! You won't believe how common it is!</li>
+                <li>See the "I want to tweak Colemak..." question above first.</li>
+                <br>
+                <li>Simply swapping R and S on Colemak is definitely not recommended! It leads to higher same-finger bigram frequency and other issues.</li>
+                <li>Ease of learning is a design property of Colemak, but should not be so at the cost of too much layout quality.</li>
+                <li>Funnily enough, other layouts move lots of keys between hands and swap them around. Their learners don't complain.</li>
+                <li>Colemak, on the other hand, has this one somewhat hard-to-learn key swap, and lots of learners complain – since it's just that one?</li>
+                <li>If you make a change to Colemak that makes it worse, you're fixing a temporary problem with a permanently inferior solution!</li>
+                <br>
+                <li>In the [Colemak Design FAQ](https://colemak.com/Design_FAQ) Shai Coleman answers the R-S exchange question like this:</li>
+                <ul class="dashed">
+                    <li>It significantly reduces same-finger. This is especially important as it affects the ring finger which is the least dexterous finger.</li>
+                    <li>(e.g. try typing WSWSWS fast on QWERTY)</li>
+                    <li>It allows for W to stay in the same place. It's more important to keep the potentially destructive Ctrl+W shortcut.</li>
+                </ul>
+                <li>Since you care about initial learning, consider that hitting Ctrl+S (Save) by mistake is far less destructive than Ctrl+W (Close window).</li>
+                <li>RS occurs 0.40% of the time; common for a bigram. SR occurs 0.006% of the time. It's better to roll this bigram inwards than outwards.</li>
+                <li>The ST bigram too is better as it is in Colemak, and it too is more common than its reverse counterpart TS.</li>
+                <br>
+                <li>Here's a <a href="https://www.youtube.com/watch?v=4qLkq6jYnJM">funny video comment</a> for you on the subject.  ￣(=⌒ᆺ⌒=)￣</li>
+                <li>There is some more discourse in <a href="https://www.reddit.com/r/Colemak/comments/hnfk6e/is_there_a_good_reason_for_the_placement_of_r_and/">this Reddit post</a>.</li>
+            </ul>
+            <p><i>"In the world of layout design there is no beginner's luck. Only beginner's mistakes." ~ DreymaR, 2021</i></p>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="spoiler newbspoiler">
+        <p><span>"Is mapping the CapsLock key to Backspace a part of the Colemak layout?"</span></p>
+        <div class="spoilerBody">
+            <ul class="disc">
+                <li>When the Colemak layout was introduced back in 2006, the layout was indeed bundled with this nifty trick.</li>
+                <li>However, treating layout components as modules works better. Special key behavior should be treated separately from letter layout.</li>
+                <li>This is the case in Linux XKB for instance, where you can select what the CapsLock key does independently from your layout choice.</li>
+                <li>Furthermore, several tricks and tools have been added to your options since the birth of Colemak.</li>
+                <li>Consider using the Caps key as a powerful <a href="https://dreymar.colemak.org/layers-extend.html"><b>Extend layer modifier</b></a>!</li>
+                <li>With Extend, you'll keep both Back and CapsLock in handy locations. It's also easy to hit Ctrl+Back with Extend, and so much more.</li>
+                <li>In some implementations, the your Caps key can even be both Back on tap <i>and</i> the Extend mod on hold, as a Tap-or-Mod key.</li>
+            </ul>
         </div>
     </div>
 
