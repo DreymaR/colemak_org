@@ -90,7 +90,7 @@ FAQ: LAYOUT DESIGN
 		- Read the https://colemak.com/Design_FAQ and the accompanying https://colemak.com/Design first, to learn more.
 		- "In the world of layout design there is no beginner's luck, only beginner's mistakes" ~ DreymaR, 2021
 
-	- "Wouldn't it be better to swap R and S on Colemak? It's so hard to learn!"
+	☑ "Wouldn't it be better to swap R and S on Colemak? It's so hard to learn!"
 		- We get this one a lot from newcomers! You won't believe how common it is!
 		- Here's a funny video comment for you: https://www.youtube.com/watch?v=4qLkq6jYnJM
 		- See the "I want to tweak Colemak..." question above first.
