@@ -91,28 +91,44 @@ main img {
     margin: 20px auto;
 }
 
-main img.smallImg {
+main img.img-small {
     max-width: 400px;
 }
 
-main img.autoWidth {
+main img.auto-width {
     width: auto;
 }
 
-main img:not(.headerImg) + p.italic {
+p.img-text {
     max-width: 700px;
-    margin: 0 auto;
+    margin: 0 auto 34px;
     text-align: center;
+    font-style: italic;
 }
 
-main img:not(.headerImg).left + p.italic {
+main img:not(.img-header).left + p.img-text {
     max-width: unset;
     text-align: left;
+}
+
+main > h1:first-child {
+    margin-top: 0;
 }
 
 main a {
     word-break: break-word;
     color: #2371A5;
+}
+
+main ul li {
+    padding-left: 13px;
+    position: relative;
+}
+
+main ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
 }
 
 main ul li ul {
@@ -128,7 +144,7 @@ p + ul {
 }
 
 h1 {
-    margin-bottom: 20px;
+    margin: 35px 0;
     font-size: 1.7rem;
     text-align: center;
 }
@@ -143,10 +159,6 @@ h3 {
 
 ul {
     list-style-type: none;
-}
-
-main ul li:before {
-    content:"";
 }
 
 ul.disc li:before {
@@ -236,6 +248,10 @@ code.one-line {
     margin: 0;
 }
 
+.quote p + ul {
+    margin-top: 0;
+}
+
 .anchor::before {
     content: "";
     display: block;
@@ -296,11 +312,11 @@ code.one-line {
     background-color: #CACACA;
   }
   
-  .spoilerBody {
+  .spoiler-body {
     display: none;
   }
   
-  .spoilerBody.active {
+  .spoiler-body.active {
     display: block;
   }
   
@@ -326,10 +342,6 @@ code.one-line {
 
 img.left {
     margin: 20px 0;
-}
-
-.mt-35 {
-    margin-top: 35px;
 }
 
 @media only screen and (min-width: 450px) {

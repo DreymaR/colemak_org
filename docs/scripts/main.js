@@ -10,7 +10,7 @@ function hookSpoilersToggleOnClick(spoilersSelector) {
 }
 
 function toggleSpoiler() {
-    let spoilerBody = this.parentNode.getElementsByClassName("spoilerBody")[0];
+    let spoilerBody = this.parentNode.getElementsByClassName("spoiler-body")[0];
     if (spoilerBody.classList.contains('active')) {
         spoilerBody.classList.remove('active');
         spoilerBody.parentNode.classList.remove('active');
