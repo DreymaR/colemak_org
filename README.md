@@ -139,34 +139,34 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
 ## FAQ: LAYOUT DESIGN ANALYSIS
 
  - [English bigram frequencies from Norvig/Mayzner](https://blogs.sas.com/content/iml/files/2014/09/bigrams.txt)
-<table>
-<tr><th colspan="7">Common bigrams in English</th></tr>
-<tr><th>Bigram</th>	<th>Sum</th>	<th>Reverse</th><th>Sum</th>	<th>Combined sum</th>	<th>Ratio</th>	<th>Comment</th></tr>
-<tr><td>TH</td>		<td>3.556%</td>	<td>HT</td>	<td>0.130%</td>	<td>3.69%</td>		<td>27</td>	<td>TH and HE are the two most common bigrams</td></tr>
-<tr><td>HE</td>		<td>3.075%</td>	<td>EH</td>	<td>0.026%</td>	<td>3.10%</td>		<td>118</td>	<td>HE is also relevant to Colemak-DH</td></tr>
-<tr><td>ER</td>		<td>2.048%</td>	<td>RE</td>	<td>1.854%</td>	<td>3.90%</td>		<td>1.1</td>	<td>ER/RE is the most common bidirectional bigram</td></tr>
-<tr><td>OU</td>		<td>0.870%</td>	<td>UO</td>	<td>0.011%</td>	<td>0.88%</td>		<td>79</td>	<td>OU is also relevant to Colemak YOU</td></tr>
-</table>
-<table>
-<tr><th colspan="7">Relevant to a Colemak R-S swap</th></tr>
-<tr><th>Bigram</th>	<th>Sum</th>	<th>Reverse</th><th>Sum</th>	<th>Combined sum</th>	<th>Ratio</th>	<th>Comment</th></tr>
-<tr><td>ST</td>		<td>1.053%</td>	<td>TS</td>	<td>0.337%</td>	<td>1.39%</td>		<td>3.1</td>	<td>ST/TS is in the top 20 English bigrams</td></tr>
-<tr><td>RS</td>		<td>0.397%</td>	<td>SR</td>	<td>0.006%</td>	<td>0.40%</td>		<td>66</td>	<td>RS is nicer to roll inwards</td></tr>
-<tr><td>TR</td>		<td>0.426%</td>	<td>RT</td>	<td>0.362%</td>	<td>0.79%</td>		<td>1.2</td>	<td>TR/RT vs RS/SR isn't so important here?</td></tr>
-<tr><td>SC</td>		<td>0.155%</td>	<td>CS</td>	<td>0.023%</td>	<td>0.18%</td>		<td>6.7</td>	<td>Colemak has SC/CS, WR/RW, SF/FS relevant SFBs</td></tr>
-<tr><td>WR</td>		<td>0.031%</td>	<td>RW</td>	<td>0.013%</td>	<td>0.04%</td>		<td>2.4</td>	<td>In sum, 0.24 relevant SFBs</td></tr>
-<tr><td>SF</td>		<td>0.017%</td>	<td>FS</td>	<td>0.006%</td>	<td>0.02%</td>		<td>2.8</td>	<td>Cmk total is 1.67% on the Colemakmods analyzer</td></tr>
-<tr><td>CR</td>		<td>0.149%</td>	<td>RC</td>	<td>0.121%</td>	<td>0.27%</td>		<td>1.2</td>	<td>R-S swapped Cmk has CR/RC, FR/RF, WS/SW SFBs</td></tr>
-<tr><td>FR</td>		<td>0.213%</td>	<td>RF</td>	<td>0.032%</td>	<td>0.25%</td>		<td>6.6</td>	<td>In sum, 0.58% relevant SFBs</td></tr>
-<tr><td>WS</td>		<td>0.035%</td>	<td>SW</td>	<td>0.024%</td>	<td>0.06%</td>		<td>1.5</td>	<td>That's a factor 2.4 over Cmk's</td></tr>
-</table>
-<table>
-<tr><th colspan="7">The most frequent Colemak SFBs</th></tr>
-<tr><th>Bigram</th>	<th>Sum</th>	<th>Reverse</th><th>Sum</th>	<th>Combined sum</th>	<th>Ratio</th>	<th>Comment</th></tr>
-<tr><td>SC</td>		<td>0.155%</td>	<td>CS</td>	<td>0.023%</td>	<td>0.18%</td>		<td>6.7</td>	<td>E, KN UE SC Y. are the most common SFBs on Colemak</td></tr>
-<tr><td>UE</td>		<td>0.147%</td>	<td>EU</td>	<td>0.031%</td>	<td>0.18%</td>		<td>4.7</td>	<td>UE feels easier as an upper-to-middle-row SFB</td></tr>
-<tr><td>NK</td>		<td>0.052%</td>	<td>KN</td>	<td>0.051%</td>	<td>0.10%</td>		<td>1.0</td>	<td>NK/KN is easily alt-fingered with index-middle fingers</td></tr>
-</table>
+    <table>
+	<tr><th colspan="7">Common bigrams in English</th></tr>
+	<tr><th>Bigram</th>	<th>Sum</th>	<th>Reverse</th><th>Sum</th>	<th>Combined sum</th>	<th>Ratio</th>	<th>Comment</th></tr>
+	<tr><td>TH</td>		<td>3.556%</td>	<td>HT</td>	<td>0.130%</td>	<td>3.69%</td>		<td>27</td>	<td>TH and HE are the two most common bigrams</td></tr>
+	<tr><td>HE</td>		<td>3.075%</td>	<td>EH</td>	<td>0.026%</td>	<td>3.10%</td>		<td>118</td>	<td>HE is also relevant to Colemak-DH</td></tr>
+	<tr><td>ER</td>		<td>2.048%</td>	<td>RE</td>	<td>1.854%</td>	<td>3.90%</td>		<td>1.1</td>	<td>ER/RE is the most common bidirectional bigram</td></tr>
+	<tr><td>OU</td>		<td>0.870%</td>	<td>UO</td>	<td>0.011%</td>	<td>0.88%</td>		<td>79</td>	<td>OU is also relevant to Colemak YOU</td></tr>
+    </table>
+    <table>
+	<tr><th colspan="7">Relevant to a Colemak R-S swap</th></tr>
+	<tr><th>Bigram</th>	<th>Sum</th>	<th>Reverse</th><th>Sum</th>	<th>Combined sum</th>	<th>Ratio</th>	<th>Comment</th></tr>
+	<tr><td>ST</td>		<td>1.053%</td>	<td>TS</td>	<td>0.337%</td>	<td>1.39%</td>		<td>3.1</td>	<td>ST/TS is in the top 20 English bigrams</td></tr>
+	<tr><td>RS</td>		<td>0.397%</td>	<td>SR</td>	<td>0.006%</td>	<td>0.40%</td>		<td>66</td>	<td>RS is nicer to roll inwards</td></tr>
+	<tr><td>TR</td>		<td>0.426%</td>	<td>RT</td>	<td>0.362%</td>	<td>0.79%</td>		<td>1.2</td>	<td>TR/RT vs RS/SR isn't so important here?</td></tr>
+	<tr><td>SC</td>		<td>0.155%</td>	<td>CS</td>	<td>0.023%</td>	<td>0.18%</td>		<td>6.7</td>	<td>Colemak has SC/CS, WR/RW, SF/FS relevant SFBs</td></tr>
+	<tr><td>WR</td>		<td>0.031%</td>	<td>RW</td>	<td>0.013%</td>	<td>0.04%</td>		<td>2.4</td>	<td>In sum, 0.24 relevant SFBs</td></tr>
+	<tr><td>SF</td>		<td>0.017%</td>	<td>FS</td>	<td>0.006%</td>	<td>0.02%</td>		<td>2.8</td>	<td>Cmk total is 1.67% on the Colemakmods analyzer</td></tr>
+	<tr><td>CR</td>		<td>0.149%</td>	<td>RC</td>	<td>0.121%</td>	<td>0.27%</td>		<td>1.2</td>	<td>R-S swapped Cmk has CR/RC, FR/RF, WS/SW SFBs</td></tr>
+	<tr><td>FR</td>		<td>0.213%</td>	<td>RF</td>	<td>0.032%</td>	<td>0.25%</td>		<td>6.6</td>	<td>In sum, 0.58% relevant SFBs</td></tr>
+	<tr><td>WS</td>		<td>0.035%</td>	<td>SW</td>	<td>0.024%</td>	<td>0.06%</td>		<td>1.5</td>	<td>That's a factor 2.4 over Cmk's</td></tr>
+    </table>
+    <table>
+	<tr><th colspan="7">The most frequent Colemak SFBs</th></tr>
+	<tr><th>Bigram</th>	<th>Sum</th>	<th>Reverse</th><th>Sum</th>	<th>Combined sum</th>	<th>Ratio</th>	<th>Comment</th></tr>
+	<tr><td>SC</td>		<td>0.155%</td>	<td>CS</td>	<td>0.023%</td>	<td>0.18%</td>		<td>6.7</td>	<td>E, KN UE SC Y. are the most common SFBs on Colemak</td></tr>
+	<tr><td>UE</td>		<td>0.147%</td>	<td>EU</td>	<td>0.031%</td>	<td>0.18%</td>		<td>4.7</td>	<td>UE feels easier as an upper-to-middle-row SFB</td></tr>
+	<tr><td>NK</td>		<td>0.052%</td>	<td>KN</td>	<td>0.051%</td>	<td>0.10%</td>		<td>1.0</td>	<td>NK/KN is easily alt-fingered with index-middle fingers</td></tr>
+    </table>
   
  - SteveP's SFB analysis using the colemakmods analyzer:
     <table>
