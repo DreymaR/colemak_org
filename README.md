@@ -54,7 +54,7 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
 - It's quite individual really! There are many users of both variants, among them people who have tried both.
 - The Curl-DH mod reduces lateral (inwards) travel for the index fingers, and helps the common HE bigram.
 - To determine what you like best, decide how you feel about inwards stretches to D (QWERTY G) and H.
-- Then compare with the downwards <i>curl</i> to V and M. If you prefer those, consider Cmk-DH.
+- Then compare with the downwards *curl* to V and M. If you prefer those, consider Cmk-DH.
 - Individual preference and typing style (e.g., float vs grounding) may affect the choice.
 - Both variants are well suited for both row-staggered and matrix/ortho keyboards.
 - People have achieved 220+ WPM typing test results on both variants (Viper and Sophie).
@@ -129,7 +129,7 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
   - Furthermore, several tricks and tools have been added to your options since the birth of Colemak.
   - Consider using the Caps key as a powerful **[Extend layer modifier][extend]**!
   - With Extend, you'll keep both Back and CapsLock in handy locations. It's also easy to hit Ctrl+Back with Extend, and so much more.
-  - In some implementations, the your Caps key can even be both Back on tap <i>and</i> the Extend mod on hold, as a Tap-or-Mod key.
+  - In some implementations, the your Caps key can even be both Back on tap *and* the Extend mod on hold, as a Tap-or-Mod key.
 
 ### ☑ "How can I get a layout up and running? I downloaded this installer..."
   - On Windows there are four main ways: MSKLC, [AHK][ahkcom], [EPKL][bigbag] and Registry/[SharpKeys][sharpkeysgit]. All have their strengths and weaknesses.
