@@ -35,7 +35,7 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
 
 ## FAQ: LAYOUT LEARNING
 
-### ☑ "Should I learn Colemak? Is it worth it?"
+### 🤔️❓️ "Should I learn Colemak? Is it worth it?"
 - Yes. Well, you asked. On a page dedicated to Colemak...  ¯\(°_o)/¯
 - Longer answer: If your only concern is speed then maybe not. You can get fast with most layouts, likely including the one you're using now.
 - "Your fingers will thank you" goes the slogan. Colemak is very comfortable and once you've learnt it properly you'll nearly certainly enjoy it a lot.
@@ -44,13 +44,13 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
 - Consider that you'll probably type a lot in your lifetime. Learning a better way of doing that should easily be worth the while.
 - In sum, nearly everyone we've heard from who gave it a dedicated attempt have ended up saying that learning an improved layout is worth it.
 
-### ☑ "What about Vim, or other programs that use shortcuts?"
+### 🤔️❓️ "What about Vim, or other programs that use shortcuts?"
 - For the majority of users, that's not a problem. Many worry beforehand, but we haven't heard anyone with a little experience complain.
 - In Vim and most other programs, most of the shortcuts are by letter. The Yank command in Vim is on the <kbd>Y</kbd> key no matter where that is.
 - Commands/shortcuts that are positional will take a little more getting used to. Some remap them, but many prefer not to after a while.
 - There are other navigation ways than HJKL in Vim, and they may just be better overall. [Extend][extend] is a good example – it even stays with you outside Vim!
 
-### ☑ "Which Colemak is better, Classical/Vanilla or Curl/DH?"
+### 🤔️❓️ "Which Colemak is better, Classical/Vanilla or Curl/DH?"
 - It's quite individual really! There are many users of both variants, among them people who have tried both.
 - The Curl-DH mod reduces lateral (inwards) travel for the index fingers, and helps the common HE bigram.
 - To determine what you like best, decide how you feel about inwards stretches to D (QWERTY G) and H.
@@ -59,7 +59,7 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
 - Both variants are well suited for both row-staggered and matrix/ortho keyboards.
 - People have achieved 220+ WPM typing test results on both variants (Viper and Sophie).
 
-### ☑ "Is Colemak-DH the same as...?"
+### 🤔️❓️ "Is Colemak-DH the same as...?"
 - "...DHm/DHk, the DH mod for ANSI/ISO vs matrix/ortho keyboards, or...?"
 - There are many names and letters floating around, let's hopefully clear this up a bit.
 - The DH mod for Colemak is the result of SteveP's Mod-DH project from 2014. As its name says, it moves the D and H keys.
@@ -72,12 +72,12 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
 - A common misconception is that the 'm' in DHm stands for 'matrix' as in matrix/ortho boards. This is wrong. I should know; I made that abbreviation.
 - Some use Colemak-CurlAngle plus further Wide and Sym mods, which makes Colemak-CAWS. See [the Big Bag][bigbag].
 
-### ☑ "Why is Z in the middle of the board on Angle-ANSI? Would DH work without that pesky confusing Angle mod?"
+### 🤔️❓️ "Why is Z in the middle of the board on Angle-ANSI? Would DH work without that pesky confusing Angle mod?"
 - "Would using one ortho board and another ANSI Angle-modded board make it more confusing?"
 
 ## FAQ: LAYOUT DESIGN
 
-### ☑ "Which layouts are better than Colemak?"
+### 🤔️❓️ "Which layouts are better than Colemak?"
   - Any answer depends a lot on modeling and scoring. Individual factors and preferences become important, as with vanilla vs DH.
   - Diminishing returns, infinite layout pool
   - More changes from QWERTY, more keys change hands, fewer shortcuts kept
@@ -85,14 +85,14 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
     - Colemak places the quite common `A` and `O` on pinkies, but has little pinky movement to the other rows.
   - Word of warning about implementation.
 
-### ☑ "Isn't Workman/Norman/Whatever better than Colemak? Its documentation says so!"
+### 🤔️❓️ "Isn't Workman/Norman/Whatever better than Colemak? Its documentation says so!"
   - Please don't trust any layout maker's own words. There really are a lot of fairly clueless people, and even nutcases make layouts.
   - Specifically, the Norman and Workman layout makers seem exceedingly proud of themselves and imnsho shouldn't be.
   - For one: Both these layouts have too high same-finger bigram (SFB) stats, and their fans downplay the problem.
   - Secondly, most users of these layouts that have studied layout design a little seem to be unhappy with their choice.
   - [Here's Ben Vallack talking about leaving Workman](https://www.youtube.com/watch?v=WVmJrZF9xwk&t=245s)
 
-### ☑ "I want to tweak Colemak a little to suit my needs!"
+### 🤔️❓️ "I want to tweak Colemak a little to suit my needs!"
   - Unless you are an experienced layout designer, consider that you probably don't know and understand enough to do it well.
   - On a properly optimized layout it's generally very hard to change even a small thing without breaking something more important.
   - You need to understand typing concepts such as grounding vs float, hand and finger balances, alternation vs rolls, lateral stretches etc.
@@ -103,7 +103,7 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
   - Read the https://colemak.com/Design_FAQ and the accompanying https://colemak.com/Design first, to learn more.
   - "In the world of layout design there is no beginner's luck, only beginner's mistakes" ~ DreymaR, 2021
 
-### ☑ "Wouldn't it be better to swap R and S on Colemak? It's so hard to learn!"
+### 🤔️❓️ "Wouldn't it be better to swap R and S on Colemak? It's so hard to learn!"
   - We get this one a lot from newcomers! You won't believe how common it is!
   - [Here's a funny video comment for you](https://www.youtube.com/watch?v=4qLkq6jYnJM)
   - See the "I want to tweak Colemak..." question above first.
@@ -122,7 +122,7 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
   - The ST bigram too is better as it is in Colemak, and more common than TS.
   - There are some more answers [here](https://www.reddit.com/r/Colemak/comments/hnfk6e/is_there_a_good_reason_for_the_placement_of_r_and/)
 
-### ☑ "Is mapping the CapsLock key to Backspace a part of the Colemak layout?"
+### 🤔️❓️ "Is mapping the CapsLock key to Backspace a part of the Colemak layout?"
   - When the Colemak layout was introduced, the layout was indeed bundled with this nifty trick.
   - However, treating layout components as modules works better. CapsLock key behavior should be treated separately from letter layout.
   - This is the case in Linux XKB for instance, where you can select what the CapsLock key does independently from your layout choice.
@@ -131,7 +131,7 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
   - With Extend, you'll keep both Back and CapsLock in handy locations. It's also easy to hit Ctrl+Back with Extend, and so much more.
   - In some implementations, the your Caps key can even be both Back on tap *and* the Extend mod on hold, as a Tap-or-Mod key.
 
-### ☑ "How can I get a layout up and running? I downloaded this installer..."
+### 🤔️❓️ "How can I get a layout up and running? I downloaded this installer..."
   - On Windows there are four main ways: MSKLC, [AHK][ahkcom], [EPKL][bigbag] and Registry/[SharpKeys][sharpkeysgit]. All have their strengths and weaknesses.
   - On Linux and MacOS, XKB and [KMonad][kmonadgit] (and the mostly deprecated [xmodmap][xmodmapwiki]). Differences.
   - Hardware implementation. Programmable board and QUICKIE.
@@ -188,7 +188,7 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
 
 ## FAQ: PRACTICAL LAYOUT QUESTIONS
 
-### ☑ "My right pinky gets tired! And typing `you` is uncomfortable! What's wrong?"
+### 🤔️❓️ "My right pinky gets tired! And typing `you` is uncomfortable! What's wrong?"
   - Many QWERTY typists hardly use their right hand pinky, as the rare semicolon sits in its home row position and some type P with their ring finger.
   - These typists may need to build up their finger strength a little to type well on Colemak. Pinky fu! &thinsp;🥋
   - There are layouts that deprioritize the pinkies more than Colemak. These generally aren't so good, however.
@@ -197,11 +197,11 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
     - This one has a so-called `redirect`, which means that it changes direction (RL then LR). That's not so comfortable.
     - Furthermore, it uses both the weak pinky and the codependent ring finger. You just have to train it!
 
-### ☑ "How can I train my fingers to get better at typing for instance `you`, then?"
+### 🤔️❓️ "How can I train my fingers to get better at typing for instance `you`, then?"
   - At the [Big Bag Training page][bigbagtrain] there are tips for training hard n-grams. Try a list of words containing 'ou uo yo oy uy yu'!
   - If you have a programmable keyboard you could make a chord for hard n-grams. E.g., press 'yu' at the same time for 'you'.
 
-### ☑ Where can I learn to type better and faster with a layout?
+### 🤔️❓️ Where can I learn to type better and faster with a layout?
   - There are many options and people are different.
   - The best advice is to enjoy the experience!
   - See the [Big Bag Training page][bigbagtrain] for answers.
