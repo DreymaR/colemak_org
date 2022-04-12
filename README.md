@@ -1,6 +1,10 @@
 # colemak_org
-# The Colemak Community Web Pages
-## Web pages for [www.colemak.org][cmkorg]
+
+The Colemak Community Web Pages
+===============================
+
+Web pages for [www.colemak.org][cmkorg]
+---------------------------------------
 
 [This repo][cmkgit] holds a GitHub web page for the user-controlled colemak.org domain.
 
@@ -33,7 +37,8 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
 
 ---
 
-## FAQ: LAYOUT LEARNING
+FAQ: LAYOUT LEARNING
+--------------------
 
 ### 🤔️❓️ "Should I learn Colemak? Is it worth it?"
 - Yes. Well, you asked. On a page dedicated to Colemak...  ¯\(°_o)/¯
@@ -75,8 +80,8 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
 ### 🤔️❓️ "Why is Z in the middle of the board on Angle-ANSI? Would DH work without that pesky confusing Angle mod?"
 - "Would using one ortho board and another ANSI Angle-modded board make it more confusing?"
 
-## FAQ: LAYOUT DESIGN
-
+FAQ: LAYOUT DESIGN
+------------------
 ### 🤔️❓️ "Which layouts are better than Colemak?"
   - Any answer depends a lot on modeling and scoring. Individual factors and preferences become important, as with vanilla vs DH.
   - Diminishing returns, infinite layout pool
@@ -136,8 +141,8 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
   - On Linux and MacOS, XKB and [KMonad][kmonadgit] (and the mostly deprecated [xmodmap][xmodmapwiki]). Differences.
   - Hardware implementation. Programmable board and QUICKIE.
 
-## FAQ: LAYOUT DESIGN ANALYSIS
-
+FAQ: LAYOUT DESIGN ANALYSIS
+---------------------------
 - [English bigram frequencies from Norvig/Mayzner](https://blogs.sas.com/content/iml/files/2014/09/bigrams.txt)
   - Common bigrams in English:
 
@@ -186,8 +191,8 @@ This repo is maintained by [@DreymaR][@dreym] and [@abrickinthehallway][@abith],
 	<tr><td>Colemak-RSFL (angle-cheat)</td>	<td>1.763% (Improves hand balance too!)</td></tr>
       </table>
 
-## FAQ: PRACTICAL LAYOUT QUESTIONS
-
+FAQ: PRACTICAL LAYOUT QUESTIONS
+-------------------------------
 ### 🤔️❓️ "My right pinky gets tired! And typing `you` is uncomfortable! What's wrong?"
   - Many QWERTY typists hardly use their right hand pinky, as the rare semicolon sits in its home row position and some type P with their ring finger.
   - These typists may need to build up their finger strength a little to type well on Colemak. Pinky fu! &thinsp;🥋
